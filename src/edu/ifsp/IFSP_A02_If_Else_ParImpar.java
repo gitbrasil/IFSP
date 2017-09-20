@@ -7,7 +7,7 @@ package edu.ifsp;
 
 import java.util.Scanner;
 
-public class IFSP_A02_If_Else_Par_Impar {
+public class IFSP_A02_If_Else_ParImpar {
 
     public static void main(String[] args) {
 

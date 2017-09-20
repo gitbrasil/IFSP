@@ -21,7 +21,7 @@ public class IFSP_A02_If_Else_Par_Impar {
         System.out.print("Digitar num.: ");
         var = input.nextInt();
 
-        // flow selection
+        // flow selection & display message
         if (var % 2 == 0) {
             System.out.println("Num. par: " + var);
         } else {

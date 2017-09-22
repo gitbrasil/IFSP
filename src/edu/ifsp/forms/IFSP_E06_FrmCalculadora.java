@@ -11,12 +11,12 @@ import javax.swing.JOptionPane;
  *
  * @author Aluno
  */
-public class IFSP_E06_Form_Calculadora extends javax.swing.JFrame {
+public class IFSP_E06_FrmCalculadora extends javax.swing.JFrame {
 
     /**
      * Creates new form FrmCalculadora
      */
-    public IFSP_E06_Form_Calculadora() {
+    public IFSP_E06_FrmCalculadora() {
         initComponents();
     }
 
@@ -213,14 +213,38 @@ public class IFSP_E06_Form_Calculadora extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(IFSP_E06_Form_Calculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_E06_FrmCalculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(IFSP_E06_Form_Calculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_E06_FrmCalculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(IFSP_E06_Form_Calculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_E06_FrmCalculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(IFSP_E06_Form_Calculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_E06_FrmCalculadora.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
@@ -233,7 +257,7 @@ public class IFSP_E06_Form_Calculadora extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new IFSP_E06_Form_Calculadora().setVisible(true);
+                new IFSP_E06_FrmCalculadora().setVisible(true);
             }
         });
     }

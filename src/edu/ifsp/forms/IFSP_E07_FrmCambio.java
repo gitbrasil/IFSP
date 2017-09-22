@@ -5,9 +5,9 @@
  */
 package edu.ifsp.forms;
 
-public class IFSP_E07_Cambio extends javax.swing.JFrame {
+public class IFSP_E07_FrmCambio extends javax.swing.JFrame {
 
-    public IFSP_E07_Cambio() {
+    public IFSP_E07_FrmCambio() {
         initComponents();
     }
 
@@ -62,6 +62,11 @@ public class IFSP_E07_Cambio extends javax.swing.JFrame {
         btnLimpar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnLimparMouseClicked(evt);
+            }
+        });
+        btnLimpar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnLimparActionPerformed(evt);
             }
         });
 
@@ -149,13 +154,22 @@ public class IFSP_E07_Cambio extends javax.swing.JFrame {
 
     private void btnLimparMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnLimparMouseClicked
 
+
+    }//GEN-LAST:event_btnLimparMouseClicked
+
+    private void btnLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimparActionPerformed
+
         // limpar caixa de textos
         txtValor.setText("");
         txtResultado.setText("");
 
         // foco para txtNumero1 // Focus: onde está o cursor
         txtValor.requestFocus();
-    }//GEN-LAST:event_btnLimparMouseClicked
+
+        //desmarcar radiobutton
+        btgCambio.clearSelection();
+
+    }//GEN-LAST:event_btnLimparActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -171,20 +185,23 @@ public class IFSP_E07_Cambio extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(IFSP_E07_Cambio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_E07_FrmCambio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(IFSP_E07_Cambio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_E07_FrmCambio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(IFSP_E07_Cambio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_E07_FrmCambio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(IFSP_E07_Cambio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_E07_FrmCambio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new IFSP_E07_Cambio().setVisible(true);
+                new IFSP_E07_FrmCambio().setVisible(true);
             }
         });
     }

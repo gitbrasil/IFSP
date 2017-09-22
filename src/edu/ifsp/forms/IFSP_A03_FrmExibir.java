@@ -8,9 +8,9 @@ package edu.ifsp.forms;
 import javax.swing.JOptionPane;
 
 
-public class IFSP_A03_Form extends javax.swing.JFrame {
+public class IFSP_A03_FrmExibir extends javax.swing.JFrame {
 
-    public IFSP_A03_Form() {
+    public IFSP_A03_FrmExibir() {
         initComponents();
     }
 
@@ -120,14 +120,22 @@ public class IFSP_A03_Form extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(IFSP_A03_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_A03_FrmExibir.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(IFSP_A03_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_A03_FrmExibir.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(IFSP_A03_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_A03_FrmExibir.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(IFSP_A03_Form.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(IFSP_A03_FrmExibir.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
@@ -140,7 +148,7 @@ public class IFSP_A03_Form extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new IFSP_A03_Form().setVisible(true);
+                new IFSP_A03_FrmExibir().setVisible(true);
             }
         });
     }

@@ -5,6 +5,8 @@
  */
 package edu.ifsp.forms;
 
+import javax.swing.JOptionPane;
+
 public class IFSP_E07_FrmCambio extends javax.swing.JFrame {
 
     public IFSP_E07_FrmCambio() {
@@ -135,21 +137,24 @@ public class IFSP_E07_FrmCambio extends javax.swing.JFrame {
         double dolar = 3.13, euro = 3.38, libra = 3.85;
 
         if (rbtDolar.isSelected()) {
-
             valor = Double.parseDouble(txtValor.getText());
             reais = valor * dolar;
-            txtResultado.setText(String.valueOf(reais));
-        } else if (rbtEuro.isSelected()) {
 
+            txtResultado.setText(String.valueOf(reais));
+
+        } else if (rbtEuro.isSelected()) {
             valor = Double.parseDouble(txtValor.getText());
             reais = valor * euro;
-            txtResultado.setText(String.valueOf(reais));
-        } else if (rbtLibra.isSelected()) {
 
+            txtResultado.setText(String.valueOf(reais));
+
+        } else if (rbtLibra.isSelected()) {
             valor = Double.parseDouble(txtValor.getText());
             reais = valor * libra;
+
             txtResultado.setText(String.valueOf(reais));
         }
+        JOptionPane.showMessageDialog(this, reais);
     }//GEN-LAST:event_btnConverterActionPerformed
 
     private void btnLimparMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnLimparMouseClicked
